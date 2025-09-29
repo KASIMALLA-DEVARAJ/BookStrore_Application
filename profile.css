@@ -1,0 +1,30 @@
+#user-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.user-profile {
+    list-style: none;
+    padding: 0;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    max-width: 400px;
+    padding: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.user-profile li {
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.user-profile li:last-child {
+    border-bottom: none;
+}
+
+.user-profile strong {
+    color: #333;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="books.css">
+    <title>Books Store</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <headder>
+        <div id="nav">
+            <ul>
+                <li>
+                    <h1><a href="index.html">Books Store</a></h1>
+                </li>
+                <li>
+                    <h4><a href="index.html">Home</a></h4>
+                </li>
+                <li>
+                    <h4><a href="books.html">Books</a></h4>
+                </li>
+                <li>
+                    <h4><a href="profile.html">Profile</a></h4>
+                </li>
+                
+            </ul>
+        </div>
+
+    </headder>
+    <main>
+
+        <section>
+            <div id="search-container">
+                <input type="text" id="search-input"  placeholder="Search your Book" required>
+                <label><button type="button" id="search">Search</button></label>
+                <div id="loading" style="display: none;">Loading...</div>
+                <div id="error-message" style="color: red;"></div>
+            </div>
+        </section>
+
+        <section id="card-container">
+            
+            <script src="./script.js"></script>
+        </section>
+        
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 BookVerse. All rights reserved.</p>
+    </footer>
+   
+</body>
+
+</html>

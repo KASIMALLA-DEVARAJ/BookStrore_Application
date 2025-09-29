@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Open Sans';
+}
+
+body {
+    font-family: 'Lora', serif;
+    background-color: #FAF9F6;
+    background-image: "bg.jpg";
+    color: #333333;
+}
+
+
+#nav{
+    position:sticky;
+    top:0;
+    width: vw;
+    background-color: #581845;
+    color: #E9C46A;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 2%;
+    height: 70px;
+}
+#nav ul{
+    display: flex;
+    justify-content:space-around;
+    align-items: flex-start;
+    list-style: none;
+}
+
+#nav ul li a{
+    text-decoration: none;
+    line-height: 60px;
+    color: #FAF9F6;
+}
+
+footer p{
+    margin-top: 100px;
+    text-align: center;
+}
